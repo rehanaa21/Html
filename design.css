@@ -1,0 +1,43 @@
+.Outbound
+{
+    width:400px;
+    height: 400px;
+    background-color: skyblue;
+    opacity: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.sub-header
+{
+    justify-content: center;
+    display: flex;
+}
+
+.details
+{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input
+{
+    padding: 10px;
+    width: 200px;
+}
+button
+{
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: blue;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+}
+
+body{
+    background-image: url("form.webp");
+}

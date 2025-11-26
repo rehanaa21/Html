@@ -1,0 +1,21 @@
+.header
+{
+    justify-content: center;
+    display: flex;
+}
+
+.image-grid
+{   display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    place-items: center;
+    /* padding: 30px; */
+}
+
+.image-grid img
+{   display: block;
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+
+}
