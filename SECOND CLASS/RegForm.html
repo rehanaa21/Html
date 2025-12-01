@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+  
+</head>
+<body>
+    <Form action="/submit" method="post" enctype="multipart">
+<fieldset>
+    <legend>
+    User Information
+    </legend>
+    <label for="username">User Name:</label>
+    <input type="text" id="username" name="username" required placeholder="Enter User Name"> 
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="mobile">Mobile:</label>
+    <input type="Number" id="mobile" name="mobile">
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="resume">Resume:</label>
+    <input type="file" id="resume" name="resume" accept=".pdf, .docx">
+    
+    <button type="submit">Submit</button>
+  <button type="cancel">Cancel</button>
+
+</fieldset>
+
+    </Form>
+</body>
+</html>
