@@ -1,0 +1,35 @@
+#top {width: 100%;
+    height: 15vh;
+    background-color: rgb(5, 105, 109);
+}
+
+#left {
+    float: left;
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(219, 247, 193);
+   
+}
+
+
+#right {
+    float: right;
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(241, 205, 223);
+}
+
+#bottom {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(175, 129, 250);
+    margin-top: 70vh;
+}
+*{margin: 0;}
+
+#toph{
+    color: white;
+    font-size: 40px;
+    padding: 25px;
+  text-align: center;
+}
