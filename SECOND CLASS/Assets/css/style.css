@@ -1,6 +1,5 @@
-table,
-th,
-td {
+
+.table12 {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
@@ -8,10 +7,35 @@ td {
   height: fit-content;
   margin: auto;
 }
-caption {
+.table12 th, td{
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.table12 caption {
   color: white;
   background-origin: padding-box;
   background-color: rgb(49, 44, 44);
+}
+
+#thirdtable {
+  color: black;
+  border: 2px;
+  width: 50%;
+  height: 200px;
+  border-collapse: collapse;
+  background-color: rgb(252, 249, 249);
+  margin: auto;
+}
+#thirdtable th,
+td {
+  border: 2px solid rgb(17, 9, 0);
+  text-align: center;
+  padding: 5px;
+}
+#thirdtable th {
+  color: white;
+  background-color: rgba(116, 113, 113, 0.6);
 }
 #practiceNav {
   background-color: rgb(2, 48, 50);
@@ -30,7 +54,22 @@ caption {
 }
 #practiceNav a {
   text-decoration: none;
+  color: rgb(245, 241, 241);
+  transition: color 0.3s;
+}
+
+#practiceNav ul li a:hover {
+  color: rgb(23, 227, 242);
+}
+
+#signAccountNav {
+  font-weight: bold;
   color: white;
+  background-color: rgb(2, 48, 50);
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 460px;
 }
 
 #reg {
@@ -46,14 +85,14 @@ caption {
   font-weight: bold;
   font-size: 15px;
 }
-#contain input{
+#contain input {
   padding: 8px;
   border: 2px solid black;
   border-radius: 6px;
   margin-bottom: 8px;
 }
 
-#contain button{
+#contain button {
   font-size: 18px;
   color: whitesmoke;
   padding: 10px 10px;
@@ -65,11 +104,12 @@ caption {
 #regform {
   background-color: hwb(192 11% 53%);
 }
-*{margin: 0;}
-.rega{
+* {
+  margin: 0;
+}
+.rega {
   text-decoration: none;
   font-style: normal;
   font-size: 24px;
   font-weight: 700;
- 
 }
