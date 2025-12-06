@@ -1,0 +1,48 @@
+
+body{width: 80%;
+    margin: auto;
+    padding: 40px;   
+}
+h1{ text-align: center;
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+}
+
+h2{width: 100%;
+  text-align: center;
+}
+
+
+.card-homepage{
+    background-color: blueviolet;
+   
+}
+.card-about{
+    background-color: rgb(245, 166, 192);
+}
+.card-contact{
+    background-color: rgb(230, 196, 43);
+}
+
+.card-Portfolio{
+    background-color: cornflowerblue;
+}
+
+.card-blog{
+    background-color: rgb(121, 167, 42);
+}
+.card-product{
+    background-color: rgb(207, 118, 88);
+}
+.card-landing{
+    background-color: rgb(214, 70, 142);
+}
+.card-FAQ
+   {background-color: rgb(17, 132, 132);}
+.card-Testimonials{
+    background-color: burlywood;
+}
